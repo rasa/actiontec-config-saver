@@ -35,7 +35,7 @@ You will need Firefox or Chrome installed. If you use Chrome, change
 ````
 to
 ````
-    #@b = Watir::Browser.new :chrome
+    @b = Watir::Browser.new :chrome
 ````
 in the beginning of `actiontecconfigsaver.rb`.
 
