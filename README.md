@@ -41,7 +41,7 @@ in the beginning of `actiontecconfigsaver.rb`.
 
 ## Contributing
 
-To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+To contribute to this project, please see [CONTRIBUTING.adoc](CONTRIBUTING.adoc).
 
 ## Bugs
 
