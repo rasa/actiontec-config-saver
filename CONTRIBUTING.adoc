@@ -18,7 +18,7 @@ and submitting xref:pull-requests[pull requests], but please respect the followi
 restrictions:
 
 * Please **do not** use the issue tracker for personal support requests. Instead, please use
-  https://stackoverflow.com/questions/tagged/projectname[Stack Overflow].
+  https://stackoverflow.com/questions/tagged/actiontec-config-saver[Stack Overflow].
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
@@ -96,11 +96,11 @@ included in the project:
 [source,bash]
 ----
 	# Clone your fork of the repo into the current directory
-	git clone https://github.com/<your-username>/projectname.git
+	git clone https://github.com/<your-username>/actiontec-config-saver.git
 	# Navigate to the newly cloned directory
-	cd projectname
+	cd actiontec-config-saver
 	# Assign the original repo to a remote called "upstream"
-	git remote add upstream https://github.com/rasa/projectname.git
+	git remote add upstream https://github.com/rasa/actiontec-config-saver.git
 ----
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -140,4 +140,4 @@ $ git pull upstream master
    with a clear title and description.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
-license your work under the terms of the link:/LICENSE.md[MIT License].
+license your work under the terms of the link:/LICENSE[MIT License].
