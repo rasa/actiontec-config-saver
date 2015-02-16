@@ -1,0 +1,4 @@
+ACS_HOST = 'youriporhostname'
+ACS_USER = 'youruser'
+ACS_PASS = 'yourpassword'
+ACS_DOMAIN = 'yourdomain.com'
