@@ -6,6 +6,7 @@ actiontec-config-saver saves the configuration of your Actiontec Router as `.htm
 
 To run actiontec-config-saver, do the following:
 
+0. Install the [watir gem](http://watir.com/installation/)
 1. Checkout the repository:
 <pre>
 $ git clone https://github.com/rasa/actiontec-config-saver.git
