@@ -1,7 +1,5 @@
 # Actiontec Config Saver
 
-## Synopsis
-
 actiontec-config-saver saves the configuration of your Actiontec Router as `.html` files.
 
 ## Quick Start
@@ -20,7 +18,7 @@ $ cd actiontec-config-saver
 <pre>
 $ cp config.rb.example config.rb
 </pre>
-4. Edit `config.rb`:
+4. Edit `config.rb` to set your router's login credentials:
 <pre>
 $ vi config.rb
 </pre>
@@ -59,5 +57,3 @@ Please see [CHANGELOG.md](CHANGELOG.md) for the version history for this project
 
 This project was originally developed by [Ross Smith II](mailto:ross@smithii.com).
 Any enhancements and suggestions are welcome.
-
-## Links
