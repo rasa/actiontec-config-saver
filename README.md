@@ -1,42 +1,36 @@
-# Actiontec Config Saver
+# Actiontec Config Saver [![Flattr this][flatter_png]][flatter]
 
-actiontec-config-saver saves the configuration of your Actiontec Router as `.html` files.
+Saves the configuration pages of your Actiontec router as `.html` files.
 
 ## Quick Start
 
-To run actiontec-config-saver, do the following:
+To run actiontec-config-saver:
 
-0. Install the [watir gem](http://watir.com/installation/)
-1. Checkout the repository:
-<pre>
-$ git clone https://github.com/rasa/actiontec-config-saver.git
-</pre>
-2. Change to the `actiontec-config-saver` directory:
-<pre>
-$ cd actiontec-config-saver
-</pre>
-3. Copy the example `config.rb` script:
-<pre>
-$ cp config.rb.example config.rb
-</pre>
-4. Edit `config.rb` to set your router's login credentials:
-<pre>
-$ vi config.rb
-</pre>
-5. Run `run.rb`:
-<pre>
-$ ruby run.rb
-</pre>
+1. Install ruby.
+
+2. Install [watir](http://watir.com/installation/)
+
+3. Run:
+	````bash
+	$ git clone https://github.com/rasa/actiontec-config-saver
+	$ cd actiontec-config-saver
+	$ cp config.rb.example config.rb
+	$ vi config.rb
+	$ ruby run.rb
+	````
 
 You will need Firefox or Chrome installed. If you use Chrome, change
-````
+
+````ruby
     @b = Watir::Browser.new
 ````
+
 to
-````
+
+````ruby
     @b = Watir::Browser.new :chrome
 ````
-in the beginning of `actiontecconfigsaver.rb`.
+in the beginning of [actiontecconfigsaver.rb](actiontecconfigsaver.rb).
 
 ## Contributing
 
@@ -44,17 +38,25 @@ To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Bugs
 
-To view existing bugs, or report a new bug, please see the [issues](/issues) page for this project.
+To view existing bugs, or report a new bug, please see [issues](../../issues).
+
+## Changelog
+
+To view the version history for this project, please see [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
 This project is [MIT licensed](LICENSE).
 
-## Changelog
-
-Please see [CHANGELOG.md](CHANGELOG.md) for the version history for this project.
-
 ## Contact
 
-This project was originally developed by [Ross Smith II](mailto:ross@smithii.com).
-Any enhancements and suggestions are welcome.
+This project was created and is maintained by [Ross Smith II][] [![endorse][endorse_png]][endorse]
+
+Feedback, suggestions, and enhancements are welcome.
+
+[Ross Smith II]: mailto:ross@smithii.com "ross@smithii.com"
+[flatter]: https://flattr.com/submit/auto?user_id=rasa&url=https%3A%2F%2Fgithub.com%2Frasa%2Factiontec-config-saver
+[flatter_png]: http://button.flattr.com/flattr-badge-large.png "Flattr this"
+[endorse]: https://coderwall.com/rasa
+[endorse_png]: https://api.coderwall.com/rasa/endorsecount.png "endorse"
+
